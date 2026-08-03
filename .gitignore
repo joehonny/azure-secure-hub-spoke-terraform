@@ -1,0 +1,18 @@
+.worktrees/
+.terraform/
+.tools/
+examples/**/.terraform.lock.hcl
+
+# Local Terraform state and override files must not be committed.
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
